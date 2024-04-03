@@ -1,7 +1,7 @@
 {
   "name": "Discord-Bot-Testing",
   "version": "1.0.0",
-  "main": "src/index.tsx",
+  "main": "src/index.ts",
   "repository": "https://github.com/d2Dreamer/Discord-Bot-Testing.git",
   "author": "d2Dreamer <41088824+d2Dreamer@users.noreply.github.com>",
   "license": "MIT",
