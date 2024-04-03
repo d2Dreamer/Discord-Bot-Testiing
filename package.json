@@ -1,0 +1,22 @@
+{
+  "name": "Discord-Bot-Testing",
+  "version": "1.0.0",
+  "main": "src/index.tsx",
+  "repository": "https://github.com/d2Dreamer/Discord-Bot-Testing.git",
+  "author": "d2Dreamer <41088824+d2Dreamer@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify"
+  }
+}
